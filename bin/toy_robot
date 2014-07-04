@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+#
+# Toy Robot Simulator
+# @author Douglas R. Roeder
+#
+require File.expand_path('../../app/toy_robot_cli', __FILE__)
+
+ToyRobotCli.new.execute
